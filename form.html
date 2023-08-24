@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+</head>
+<body bgcolor="MediumSeaGreen">
+	<div style="margin: -1% 33% 0% 33%;">
+		<h2 style="text-align-last: center; font-size: 28px;">📌 Student registration form...</h2>
+		
+		<form style= "background:white;padding:22px; border:2px solid red;border-radius: 12px;" >
+			<label>Name</label><br>
+			<input type="text" name="usrName" placeholder="enter your name" size="50%">
+
+			<br>
+			<label>Email</label><br>
+			<input type="emial" name = "usrEmail" placeholder="enter your email" size="50%">
+
+			<br>
+			<label>Age</label><br>
+			<input type="text" name = "usrEmail" placeholder="enter your age" size="50%" >
+
+			<br>
+			<label>Which option describe you ?</label><br>
+			<select size="1">
+				<option>Student</option>
+				<option>Employee</option>
+				<option>Ohter</option>
+			</select>
+			
+			<br>
+			<label>Gender</label><br>
+			<input type="radio" id="Gen" name="male" value="Male">
+	  		<label for="Gen">Male</label><br>
+	  		<input type="radio" id="Gen" name="female" value="Female">
+	  		<label for="Gen">Female</label><br>
+	  		<input type="radio" id="Gen" name="other" value="Other">
+	  		<label for="Gen">Other</label>
+
+	  		<br>
+			<label>Languages Known</label>
+			<br>
+
+				<input type="checkbox" id="lan1" name="Cprog" value="C">
+	 			<label for="C"> C</label>
+
+	 			<br>
+	 			<input type="checkbox" id="lan2" name="CPPprog" value="CPP">
+	 			<label for="CPP"> C++</label>
+
+	 			<br>
+	 			<input type="checkbox" id="lan3" name="Javaprog" value="Java">
+	 			<label for="Java"> Java</label>
+
+	 			<br>
+	 			<input type="checkbox" id="lan4" name="Pyprog" value="Python">
+	 			<label for="Py"> Python</label>
+
+			<br>
+			<label>Any comments or suggestion </label><br>
+			<textarea name = "usrComment" rows = "10" cols="47"size="50%"></textarea>
+			<br>
+
+			<button type="button" onclick="#" style="color: Red; height: 45px; width: 98%;border-radius: 8px; position: relative;"><b>Submit</b></button>
+		</form>
+	</div>
+</body>
+</html>
